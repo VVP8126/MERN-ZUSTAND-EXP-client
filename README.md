@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is MERN project. Added more examples with Express. Used Zustand
 
 Original example see in:
 https://developer.mozilla.org/ru/docs/Learn/Server-side/Express_Nodejs/skeleton_website
