@@ -1,0 +1,11 @@
+.errorBlock {
+  padding-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .lbl404 {
+    font-size: 64px;
+    color: #606060;
+  }
+}

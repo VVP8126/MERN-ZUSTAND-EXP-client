@@ -1,0 +1,72 @@
+.head {
+  display: block;
+  text-align: center;
+  em {
+    text-transform: uppercase;
+  }
+}
+.form {
+  font-size: 18px;
+  .name {
+    font-size: inherit;
+    padding: 15px;
+    border: none;
+    width: 60%;
+    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
+  }
+  .submit {
+    font-size: inherit;
+    display: block;
+    width: 25%;
+    min-width: 120px;
+    margin: 20px auto;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #404040;
+    &:hover {
+      background-color: #606060;
+    }
+    &:disabled {
+      background-color: #606060;
+    }
+  }
+}
+
+.successInfo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.getListBtn {
+  margin-bottom: 20px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #404040;
+  &:hover {
+    background-color: #606060;
+  }
+}
+
+.genresBlock {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  span {
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding: 8px 12px;
+    background-color: #404040;
+    color: white;
+  }
+}

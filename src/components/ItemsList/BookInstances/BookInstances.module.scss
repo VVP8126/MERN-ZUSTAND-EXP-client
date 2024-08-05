@@ -1,0 +1,29 @@
+.totalBlock {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.thead {
+  background-color: #202020;
+  color: white;
+}
+.col {
+  font-size: x-small;
+  text-align: left;
+  padding: 16px;
+}
+
+.smallFont {
+  font-size: small;
+}
+
+.row:nth-child(even) {
+  background-color: #f2f2f2;
+}

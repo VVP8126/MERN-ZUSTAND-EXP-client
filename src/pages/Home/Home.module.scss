@@ -1,0 +1,19 @@
+.table {
+  margin-top: 40px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid white;
+
+  .col {
+    text-align: left;
+    padding: 16px;
+    height: 28px;
+    line-height: 28px;
+  }
+  .row {
+    &:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.prohibited {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 80px;
+    color: #808080;
+    padding: 0;
+    margin: 0;
+  }
+  span {
+    color: black;
+    font-size: 72px;
+    margin-bottom: 10px;
+    opacity: 0.05;
+  }
+  span::before {
+    content: '\1F512';
+    color: black;
+  }
+  b {
+    font-size: 48px;
+    text-transform: uppercase;
+  }
+}

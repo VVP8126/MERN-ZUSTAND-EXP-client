@@ -1,0 +1,36 @@
+.main {
+  margin-top: 15px;
+  .head {
+    font-size: 28px;
+    text-align: center;
+  }
+  .summary {
+    padding: 20px;
+    background-color: #ccc;
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  .isbn {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .imprint {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .status {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    span + span {
+      font-weight: 600;
+      font-style: italic;
+    }
+  }
+  .availableFrom {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+}

@@ -1,0 +1,51 @@
+.authorBlock {
+  text-align: center;
+
+  .authorName {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .life {
+    font-style: italic;
+  }
+}
+
+.booksBlock {
+  .book {
+    margin-top: 10px;
+    border: 1px solid #505050;
+    border-radius: 8px;
+    padding: 10px;
+    .title {
+      a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .isbn {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+    }
+    .genres {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      span + span {
+        display: inline-block;
+        margin-right: 10px;
+        background-color: #404040;
+        color: white;
+        border-radius: 6px;
+        padding: 5px 10px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

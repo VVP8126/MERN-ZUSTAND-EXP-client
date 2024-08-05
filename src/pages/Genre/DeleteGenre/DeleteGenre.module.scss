@@ -1,0 +1,16 @@
+.delGenreBlock {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  button {
+    cursor: pointer;
+    background-color: #202020;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    &:hover {
+      background-color: #606060;
+    }
+  }
+}

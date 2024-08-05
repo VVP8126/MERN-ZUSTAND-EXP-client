@@ -1,0 +1,28 @@
+.container {
+  max-width: 800px;
+  padding: 16px;
+  margin: 0 auto;
+  background-color: #e1e1e1;
+  min-height: calc(100vh - 80px);
+  flex: 1;
+}
+.centered {
+  text-align: center;
+}
+.loading {
+  text-align: center;
+  padding: 20px;
+  margin: 50px auto;
+}
+.error {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: large;
+  font-weight: bold;
+  & span {
+    font-size: 40px;
+  }
+}

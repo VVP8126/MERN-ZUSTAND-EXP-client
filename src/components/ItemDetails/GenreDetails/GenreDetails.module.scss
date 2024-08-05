@@ -1,0 +1,43 @@
+h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.book {
+  margin-top: 15px;
+  border-bottom: 1px dotted #404040;
+
+  a {
+    text-decoration: none;
+    color: black;
+    &:visited {
+      color: #202020;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .strong {
+    font-weight: bold;
+  }
+
+  .rightAligned {
+    text-align: right;
+  }
+
+  &:first-child {
+    border-top: 1px solid #000;
+    padding-top: 15px;
+  }
+}
+
+.justified {
+  display: flex;
+  justify-content: space-around;
+}

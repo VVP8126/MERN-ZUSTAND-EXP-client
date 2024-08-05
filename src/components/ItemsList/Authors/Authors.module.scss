@@ -1,0 +1,28 @@
+.loading {
+  text-align: center;
+  padding: 20px;
+  margin: 50px auto;
+}
+.summary {
+  margin: 15px 0 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px dotted #404040;
+  border-top: 1px solid #404040;
+  padding: 10px 0;
+}
+.total {
+  padding: 5px;
+  background-color: #404040;
+  color: white;
+  border-radius: 8px;
+}
+.authorLink {
+  display: block;
+  text-decoration: none;
+  color: black;
+  &:visited {
+    color: #909090;
+  }
+}

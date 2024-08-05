@@ -1,0 +1,101 @@
+.head {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.authorBlock {
+  display: flex;
+  justify-content: space-around;
+  font-size: 28px;
+  a {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.additionalInfo {
+  display: flex;
+  justify-content: space-between;
+  .isbn {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+  }
+  .genres {
+    display: flex;
+    flex-direction: column;
+    .genreList {
+      display: flex;
+      flex-direction: column;
+      text-transform: uppercase;
+      a {
+        text-decoration: none;
+        padding: 8px;
+        background-color: #404040;
+        color: white;
+        border-radius: 8px;
+        margin-top: 4px;
+        text-align: center;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.summary {
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.bookInstanceBlock {
+  margin-top: 40px;
+
+  div {
+    padding-top: 5px;
+    border-bottom: 1px dashed #404040;
+  }
+
+  .statInfo {
+    font-weight: bold;
+  }
+  .justified {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    a {
+      color: #404040;
+      text-decoration: none;
+      font-style: italic;
+      &:hover {
+        color: black;
+        text-decoration: dashed underline;
+      }
+    }
+  }
+}
